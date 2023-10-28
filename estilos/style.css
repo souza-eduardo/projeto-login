@@ -124,7 +124,20 @@ form > input[type=submit]:hover {
 }
 
 @media screen and (max-width: 991px) and (orientation: landscape) {
-    body {
-        background-color: green;
+
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
     }
 }
